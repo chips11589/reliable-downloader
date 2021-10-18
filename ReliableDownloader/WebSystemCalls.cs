@@ -18,7 +18,7 @@ namespace ReliableDownloader
         {
             using (var httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url))
             {
-                return await _client.SendAsync(httpRequestMessage, token).ConfigureAwait(continueOnCapturedContext: false);
+                return await _client.SendAsync(httpRequestMessage, HttpCompletionOption.ResponseHeadersRead, token).ConfigureAwait(continueOnCapturedContext: false);
             }
         }
 

@@ -1,8 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliableDownloader", "ReliableDownloader\ReliableDownloader.csproj", "{4BDB7EC8-D136-4B9E-A978-D7A0356F0DAF}"
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReliableDownloader", "ReliableDownloader\ReliableDownloader.csproj", "{4BDB7EC8-D136-4B9E-A978-D7A0356F0DAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReliableDownloader.Tests", "ReliableDownloader.Tests\ReliableDownloader.Tests.csproj", "{F1F405A4-D9E2-4920-ADD8-CEBCC3BAE810}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReliableDownloader.Tests", "ReliableDownloader.Tests\ReliableDownloader.Tests.csproj", "{F1F405A4-D9E2-4920-ADD8-CEBCC3BAE810}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DEBA8387-EF05-40B4-987A-2A021AD3C8F4}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +26,11 @@ Global
 		{F1F405A4-D9E2-4920-ADD8-CEBCC3BAE810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1F405A4-D9E2-4920-ADD8-CEBCC3BAE810}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1F405A4-D9E2-4920-ADD8-CEBCC3BAE810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29A572DB-D26E-41C6-9DF2-FE566EEA9D5F}
 	EndGlobalSection
 EndGlobal
